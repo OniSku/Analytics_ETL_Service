@@ -2,6 +2,8 @@
 
 > ⚠️ **Disclaimer**: This repository serves as a code showcase for demonstration purposes. It does not contain a fully runnable production environment or all proprietary backend dependencies.
 
+> **NDA Notice**: The source code in this repository is a sanitized showcase version. The complete implementation, business logic, and client-specific configurations are proprietary and covered by a non-disclosure agreement.
+
 A microservice for collecting and processing cross-platform analytics events. The service accepts event batches from frontend and backend sources, buffers them in Redis, and asynchronously bulk-inserts them into a PostgreSQL Data Warehouse structured around a dimensional (star-schema) model.
 
 Design targets: **200 RPS**, **3 million events per day** with batch processing.
